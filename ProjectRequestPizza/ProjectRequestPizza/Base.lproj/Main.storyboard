@@ -116,6 +116,52 @@
             </objects>
             <point key="canvasLocation" x="739.69465648854964" y="3.5211267605633805"/>
         </scene>
+        <!--Screen Rating View Controller-->
+        <scene sceneID="aeJ-SS-MVO">
+            <objects>
+                <viewController storyboardIdentifier="ratingPizza" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PpE-Yu-xuV" customClass="ScreenRatingViewController" customModule="ProjectRequestPizza" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EhC-bd-irV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AVALIAÇÃO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6b-Xz-Anr">
+                                <rect key="frame" x="102" y="89" width="189" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="25"/>
+                                <color key="textColor" red="0.99043749560000005" green="0.37078740570000002" blue="0.3811833168" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndT-Rd-RQj">
+                                <rect key="frame" x="59" y="193" width="275" height="363"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mGB-vx-ebo">
+                                <rect key="frame" x="171" y="682" width="51" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.left.fill" catalog="system">
+                                    <color key="baseForegroundColor" red="0.99043749560000005" green="0.37078740570000002" blue="0.3811833168" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="btBack:" destination="PpE-Yu-xuV" eventType="touchUpInside" id="9qW-vM-TTB"/>
+                                    <action selector="btBack:" destination="5aI-pD-IdO" eventType="touchUpInside" id="dfI-OH-EHs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DGh-Mu-HtV"/>
+                        <color key="backgroundColor" red="0.99697250130000004" green="0.95481083320000004" blue="0.551040011" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblRating" destination="ndT-Rd-RQj" id="n4S-tg-wW6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hln-Kx-gXU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1448.0916030534352" y="3.5211267605633805"/>
+        </scene>
     </scenes>
     <resources>
         <image name="arrowshape.forward.fill" catalog="system" width="128" height="104"/>

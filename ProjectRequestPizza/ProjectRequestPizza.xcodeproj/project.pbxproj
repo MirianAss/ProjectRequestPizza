@@ -17,6 +17,7 @@
 		3A5EA65729C15474005B2CC7 /* PizzaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5EA65529C15474005B2CC7 /* PizzaTableViewCell.xib */; };
 		3A5EA65929C15F20005B2CC7 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5EA65829C15F20005B2CC7 /* Pizza.swift */; };
 		3A5EA65B29C216F9005B2CC7 /* ScreenPricePizzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5EA65A29C216F9005B2CC7 /* ScreenPricePizzaViewController.swift */; };
+		3A5EA65D29C22A11005B2CC7 /* ScreenRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5EA65C29C22A11005B2CC7 /* ScreenRatingViewController.swift */; };
 		56D84D7327C9B531E9E348F7 /* Pods_ProjectRequestPizza.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8650A6D6FF3256BAEBA3C19F /* Pods_ProjectRequestPizza.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		3A5EA65529C15474005B2CC7 /* PizzaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PizzaTableViewCell.xib; sourceTree = "<group>"; };
 		3A5EA65829C15F20005B2CC7 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		3A5EA65A29C216F9005B2CC7 /* ScreenPricePizzaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenPricePizzaViewController.swift; sourceTree = "<group>"; };
+		3A5EA65C29C22A11005B2CC7 /* ScreenRatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRatingViewController.swift; sourceTree = "<group>"; };
 		8650A6D6FF3256BAEBA3C19F /* Pods_ProjectRequestPizza.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectRequestPizza.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC0EF78E3F4D8DD754906CD /* Pods-ProjectRequestPizza.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectRequestPizza.release.xcconfig"; path = "Target Support Files/Pods-ProjectRequestPizza/Pods-ProjectRequestPizza.release.xcconfig"; sourceTree = "<group>"; };
 		9EFAF9833593055A595A6BB3 /* Pods-ProjectRequestPizza.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectRequestPizza.debug.xcconfig"; path = "Target Support Files/Pods-ProjectRequestPizza/Pods-ProjectRequestPizza.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				3A5EA64429C14E4F005B2CC7 /* ViewController.swift */,
 				3A5EA65829C15F20005B2CC7 /* Pizza.swift */,
 				3A5EA64629C14E4F005B2CC7 /* Main.storyboard */,
+				3A5EA65C29C22A11005B2CC7 /* ScreenRatingViewController.swift */,
 				3A5EA65A29C216F9005B2CC7 /* ScreenPricePizzaViewController.swift */,
 				3A5EA65429C15474005B2CC7 /* PizzaTableViewCell.swift */,
 				3A5EA65529C15474005B2CC7 /* PizzaTableViewCell.xib */,
@@ -223,6 +226,7 @@
 				3A5EA64529C14E4F005B2CC7 /* ViewController.swift in Sources */,
 				3A5EA64129C14E4F005B2CC7 /* AppDelegate.swift in Sources */,
 				3A5EA65929C15F20005B2CC7 /* Pizza.swift in Sources */,
+				3A5EA65D29C22A11005B2CC7 /* ScreenRatingViewController.swift in Sources */,
 				3A5EA64329C14E4F005B2CC7 /* SceneDelegate.swift in Sources */,
 				3A5EA65B29C216F9005B2CC7 /* ScreenPricePizzaViewController.swift in Sources */,
 			);

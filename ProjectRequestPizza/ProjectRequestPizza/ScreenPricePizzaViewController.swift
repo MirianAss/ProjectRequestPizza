@@ -31,7 +31,12 @@ class ScreenPricePizzaViewController: UIViewController {
     
 
     @IBAction func btAdvance(_ sender: Any) {
-        
+        if let screen = self.storyboard?.instantiateViewController(withIdentifier: "ratingPizza") as? ScreenRatingViewController {
+            
+            screen.ratingPizza = pricePizza.self
+            
+            self.present(screen, animated: true)
+        }
         
     }
     @IBAction func btBack(_ sender: Any) {
