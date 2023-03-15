@@ -13,6 +13,8 @@
 		3A5EA64829C14E4F005B2CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5EA64629C14E4F005B2CC7 /* Main.storyboard */; };
 		3A5EA64A29C14E50005B2CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A5EA64929C14E50005B2CC7 /* Assets.xcassets */; };
 		3A5EA64D29C14E50005B2CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5EA64B29C14E50005B2CC7 /* LaunchScreen.storyboard */; };
+		3A5EA65629C15474005B2CC7 /* PizzaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5EA65429C15474005B2CC7 /* PizzaTableViewCell.swift */; };
+		3A5EA65729C15474005B2CC7 /* PizzaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5EA65529C15474005B2CC7 /* PizzaTableViewCell.xib */; };
 		56D84D7327C9B531E9E348F7 /* Pods_ProjectRequestPizza.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8650A6D6FF3256BAEBA3C19F /* Pods_ProjectRequestPizza.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		3A5EA64929C14E50005B2CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A5EA64C29C14E50005B2CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A5EA64E29C14E50005B2CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A5EA65429C15474005B2CC7 /* PizzaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaTableViewCell.swift; sourceTree = "<group>"; };
+		3A5EA65529C15474005B2CC7 /* PizzaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PizzaTableViewCell.xib; sourceTree = "<group>"; };
 		8650A6D6FF3256BAEBA3C19F /* Pods_ProjectRequestPizza.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectRequestPizza.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC0EF78E3F4D8DD754906CD /* Pods-ProjectRequestPizza.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectRequestPizza.release.xcconfig"; path = "Target Support Files/Pods-ProjectRequestPizza/Pods-ProjectRequestPizza.release.xcconfig"; sourceTree = "<group>"; };
 		9EFAF9833593055A595A6BB3 /* Pods-ProjectRequestPizza.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectRequestPizza.debug.xcconfig"; path = "Target Support Files/Pods-ProjectRequestPizza/Pods-ProjectRequestPizza.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				3A5EA64229C14E4F005B2CC7 /* SceneDelegate.swift */,
 				3A5EA64429C14E4F005B2CC7 /* ViewController.swift */,
 				3A5EA64629C14E4F005B2CC7 /* Main.storyboard */,
+				3A5EA65429C15474005B2CC7 /* PizzaTableViewCell.swift */,
+				3A5EA65529C15474005B2CC7 /* PizzaTableViewCell.xib */,
 				3A5EA64929C14E50005B2CC7 /* Assets.xcassets */,
 				3A5EA64B29C14E50005B2CC7 /* LaunchScreen.storyboard */,
 				3A5EA64E29C14E50005B2CC7 /* Info.plist */,
@@ -80,7 +86,6 @@
 				9EFAF9833593055A595A6BB3 /* Pods-ProjectRequestPizza.debug.xcconfig */,
 				9CC0EF78E3F4D8DD754906CD /* Pods-ProjectRequestPizza.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5EA65729C15474005B2CC7 /* PizzaTableViewCell.xib in Resources */,
 				3A5EA64D29C14E50005B2CC7 /* LaunchScreen.storyboard in Resources */,
 				3A5EA64A29C14E50005B2CC7 /* Assets.xcassets in Resources */,
 				3A5EA64829C14E4F005B2CC7 /* Main.storyboard in Resources */,
@@ -207,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5EA65629C15474005B2CC7 /* PizzaTableViewCell.swift in Sources */,
 				3A5EA64529C14E4F005B2CC7 /* ViewController.swift in Sources */,
 				3A5EA64129C14E4F005B2CC7 /* AppDelegate.swift in Sources */,
 				3A5EA64329C14E4F005B2CC7 /* SceneDelegate.swift in Sources */,
