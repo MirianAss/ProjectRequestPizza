@@ -22,7 +22,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.99697250130000004" green="0.95481083320000004" blue="0.551040011" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6I8-BA-jJ1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0aO-l9-Rh5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6I8-BA-jJ1" secondAttribute="bottom" id="Nxo-yL-Wu3"/>
