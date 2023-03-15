@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tableView.delegate = self
         tableView.dataSource = self
         RequestPizza()
         tableView.register(UINib(nibName: "PizzaTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
@@ -48,4 +49,14 @@ extension ViewController: UITableViewDataSource {
         return UITableViewCell()
     }
   
+}
+extension ViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let screen = self.storyboard?.instantiateViewController(withIdentifier: "pricePizza") as? ScreenPricePizzaViewController {
+            
+            screen.pricePizza = arrayPizza![indexPath.row]
+            
+            self.present(screen, animated: true)
+        }
+    }
 }
