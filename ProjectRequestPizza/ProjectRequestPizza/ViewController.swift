@@ -31,7 +31,6 @@ class ViewController: UIViewController {
             self.tableView.reloadData()
         }
     }
-
 }
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -54,7 +53,7 @@ extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let screen = self.storyboard?.instantiateViewController(withIdentifier: "pricePizza") as? ScreenPricePizzaViewController {
             
-            screen.pricePizza = arrayPizza![indexPath.row]
+            screen.pricePizza = arrayPizza?[indexPath.row]
             
             self.present(screen, animated: true)
         }

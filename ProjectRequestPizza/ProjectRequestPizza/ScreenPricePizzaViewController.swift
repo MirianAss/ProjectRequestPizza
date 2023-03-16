@@ -16,24 +16,23 @@ class ScreenPricePizzaViewController: UIViewController {
     @IBOutlet weak var lblPriceM: UILabel!
     @IBOutlet weak var lblPriceP: UILabel!
     
-    var pricePizza = PizzaElement(id: "", name: "", imageURL: "", rating: 0, priceP: 0, priceM: 0, priceG: 0)
+    var pricePizza: PizzaElement?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        lblName.text = pricePizza.name
-        let urlImage = URL(string: pricePizza.imageURL ?? "")
+        lblName.text = pricePizza?.name ?? ""
+        let urlImage = URL(string: pricePizza?.imageURL ?? "")
         imagePizza.sd_setImage(with: urlImage)
-        lblPriceP.text = "PEQUENA - R$\(pricePizza.priceP ?? 0)"
-        lblPriceM.text = "MÉDIA - R$\(pricePizza.priceM ?? 0)"
-        lblPriceG.text = "GRANDE - R$\(pricePizza.priceG ?? 0)"
+        lblPriceP.text = "PEQUENA - R$\(pricePizza?.priceP ?? 0.0)"
+        lblPriceM.text = "MÉDIA - R$\(pricePizza?.priceM ?? 0.0)"
+        lblPriceG.text = "GRANDE - R$\(pricePizza?.priceG ?? 0.0)"
     }
     
-
     @IBAction func btAdvance(_ sender: Any) {
         if let screen = self.storyboard?.instantiateViewController(withIdentifier: "ratingPizza") as? ScreenRatingViewController {
             
-            screen.ratingPizza = pricePizza.self
+            screen.ratingPizza = pricePizza
             
             self.present(screen, animated: true)
         }
